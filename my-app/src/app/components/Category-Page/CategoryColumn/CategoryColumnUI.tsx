@@ -14,7 +14,7 @@ interface CategoryColumnUIProps {
 
 export default function CategoryColumnUI({ Category }: CategoryColumnUIProps) {
     return (
-        <div className="w-full  text-[#344054]">
+        <div className=" sm:min-w-[282px] min-w-[200] text-[#344054]">
             <Accordion type="single" collapsible>
                 <AccordionItem value="item-1">
                     <AccordionTrigger

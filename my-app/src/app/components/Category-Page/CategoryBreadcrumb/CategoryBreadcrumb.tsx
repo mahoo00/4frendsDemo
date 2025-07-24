@@ -8,7 +8,7 @@ import { PawPrint } from 'lucide-react';
 
 export default function CategoryBreadcrumb() {
     return (
-        <Breadcrumb className="text-base flex flex-row mt-9 mx-[16px] lg:mx-[120px] md:mx-[60px] ">
+        <Breadcrumb className=" w-full px-4 sm:mx-auto mx-0     lg:max-w-[1200px] text-base flex flex-row mt-9 ">
             <BreadcrumbItem className="mr-2">
                 <BreadcrumbLink
                     href="/"
